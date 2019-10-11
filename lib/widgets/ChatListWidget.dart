@@ -4,7 +4,7 @@ import 'ChatItemWidget.dart';
 
 
 class ChatListWidget extends StatelessWidget{
-  final ScrollController listScrollController = new ScrollController();
+  final ScrollController listScrollController = ScrollController();
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
