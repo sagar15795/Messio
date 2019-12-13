@@ -15,6 +15,5 @@ void main() {
     await tester.pumpWidget(Messio());
 
     expect(find.byType(ConversationPageSlide),findsOneWidget);
-
   });
 }
